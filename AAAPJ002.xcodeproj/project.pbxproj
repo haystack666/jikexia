@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11CAA000000000000000001 /* ListeningCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CAA000000000000000002; };
+		0C97B22F6640DDF6C166F366 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F5650B31903B06A3DB9D0 /* ContentView.swift */; };
+		0DD665D8C5A0E13D06EAA011 /* AAAPJ002WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5B708DA1A7C65147C0E77 /* AAAPJ002WatchApp.swift */; };
+		48BF602B91CE368804EA7145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F5650B31903B06A3DB9D0 /* ContentView.swift */; };
+		62B8FBAA03905D68E9609C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D48839132243C201E50EB74 /* Assets.xcassets */; };
+		6B176560DF839C9237173E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5D50033C8936311F809E8B /* Assets.xcassets */; };
+		8A6AE9F13AF214D5B0D4CC93 /* AAAPJ002App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E04715DB7409D97D30B6B7 /* AAAPJ002App.swift */; };
+		971203D66EA5725FD2535E7A /* AAAPJ002 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46E395B80DBC3E8C6239F6AD /* AAAPJ002 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		997EF4DF9B6E9B26A940D2C7 /* AAAPJ002App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E04715DB7409D97D30B6B7 /* AAAPJ002App.swift */; };
+		C0CE8EB866B08724CE1012E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479938CF2F26444D41549C93 /* ContentView.swift */; };
+		E1A18944266DEA3BE8DAE384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F376265D92D913AA46A0592A /* Assets.xcassets */; };
+		C52792564BDA15D53E4F09F8 /* ListeningModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F37AF7FF7D2DB7EDAB30F2; };
+		8197C6039FB8A62C536D2A31 /* HearingHealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B688E59233B7EF70C4F8550; };
+		9443E951FB567E5D8ADF0B41 /* ListeningCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FB296E0A9E41263B0EC34; };
+		8E66FA9E60662FCADD581917 /* ListeningDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731DE42AF5C7E4978A471FF; };
+		BE6266C9749E7F14140EB908 /* ListeningSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8A22596240DEFC33A2CD5; };
+		2D617CF512F10135B276B812 /* HeadphoneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706C2847F74F6D649C36CBA; };
+		2D6CF9F58B57D98E457ABEB4 /* HeadphoneStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446BD2F7ADE7A58BA61A1EE; };
+		BADBE96BEC5252609E203910 /* HeadphoneDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D37DCEED6F25B6E5D0A102; };
+		575EB2B5F3527FF2428ECC7E /* PersonalRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A831BFD13FD16D7A307F82; };
+		BFC88E9734F0600EE41831D7 /* PersonalRecordsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74F79A0FFCCC33C67CAD99; };
+		3CBC63593E407360BC0C11F5 /* PersonalRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65BBA60B4D9B72D5550398; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ABFEA6B9B4BC457E17B0C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272E4FF2261F67D150098B86;
+			remoteInfo = "AAAPJ002 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CA1F7AE45E4A661224F7DC5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				971203D66EA5725FD2535E7A /* AAAPJ002 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A11CAA000000000000000002 /* ListeningCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningCalendarView.swift; sourceTree = "<group>"; };
+		0E0F5650B31903B06A3DB9D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		419CB0B267222EA4A575EC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E395B80DBC3E8C6239F6AD /* AAAPJ002 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAAPJ002 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479938CF2F26444D41549C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		597503287329F5397A0B54E3 /* 即刻匣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "即刻匣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D48839132243C201E50EB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7866D50352E2B500F8738EFF /* AAAPJ002.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AAAPJ002.entitlements; sourceTree = "<group>"; };
+		89A5B708DA1A7C65147C0E77 /* AAAPJ002WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAAPJ002WatchApp.swift; sourceTree = "<group>"; };
+		AC7869B10BFBDFC759A3C54E /* AAAPJ002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAAPJ002.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E04715DB7409D97D30B6B7 /* AAAPJ002App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAAPJ002App.swift; sourceTree = "<group>"; };
+		F376265D92D913AA46A0592A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78A71AF8BBF8CC2F6F31354 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE5D50033C8936311F809E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F37AF7FF7D2DB7EDAB30F2 /* ListeningModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningModels.swift; sourceTree = "<group>"; };
+		7B688E59233B7EF70C4F8550 /* HearingHealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingHealthStore.swift; sourceTree = "<group>"; };
+		910FB296E0A9E41263B0EC34 /* ListeningCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningCharts.swift; sourceTree = "<group>"; };
+		B731DE42AF5C7E4978A471FF /* ListeningDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningDashboard.swift; sourceTree = "<group>"; };
+		27B8A22596240DEFC33A2CD5 /* ListeningSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningSettings.swift; sourceTree = "<group>"; };
+		C21A7F9181BC9B565BFABA6A /* iOS entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AAAPJ002.entitlements; sourceTree = "<group>"; };
+		1706C2847F74F6D649C36CBA /* HeadphoneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneModels.swift; sourceTree = "<group>"; };
+		E446BD2F7ADE7A58BA61A1EE /* HeadphoneStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneStore.swift; sourceTree = "<group>"; };
+		14D37DCEED6F25B6E5D0A102 /* HeadphoneDevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneDevicesView.swift; sourceTree = "<group>"; };
+		C5A831BFD13FD16D7A307F82 /* PersonalRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecords.swift; sourceTree = "<group>"; };
+		FE74F79A0FFCCC33C67CAD99 /* PersonalRecordsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecordsStore.swift; sourceTree = "<group>"; };
+		DE65BBA60B4D9B72D5550398 /* PersonalRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecordsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA23F61DFE38A520DE91032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49CAC89760EF85631CE6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FAAF991942D14C96A02F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BCF266F0E04A0BE0BA512F /* AAAPJ002 */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C8D0697F37D844ED85D1 /* Listening */,
+				C21A7F9181BC9B565BFABA6A /* iOS entitlements */,
+				D9E04715DB7409D97D30B6B7 /* AAAPJ002App.swift */,
+				0E0F5650B31903B06A3DB9D0 /* ContentView.swift */,
+				6D48839132243C201E50EB74 /* Assets.xcassets */,
+			);
+			path = AAAPJ002;
+			sourceTree = "<group>";
+		};
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				16BCF266F0E04A0BE0BA512F /* AAAPJ002 */,
+				ECCA59E2D8E99DF6684B6C95 /* AAAPJ002 Watch App */,
+				D6BFE871FAF376D29085F907 /* AAAPJ002 macOS */,
+				F78A71AF8BBF8CC2F6F31354 /* README.md */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6BFE871FAF376D29085F907 /* AAAPJ002 macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE5D50033C8936311F809E8B /* Assets.xcassets */,
+				7866D50352E2B500F8738EFF /* AAAPJ002.entitlements */,
+			);
+			path = "AAAPJ002 macOS";
+			sourceTree = "<group>";
+		};
+		ECCA59E2D8E99DF6684B6C95 /* AAAPJ002 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				89A5B708DA1A7C65147C0E77 /* AAAPJ002WatchApp.swift */,
+				479938CF2F26444D41549C93 /* ContentView.swift */,
+				F376265D92D913AA46A0592A /* Assets.xcassets */,
+				419CB0B267222EA4A575EC1C /* Info.plist */,
+			);
+			path = "AAAPJ002 Watch App";
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7869B10BFBDFC759A3C54E /* AAAPJ002.app */,
+				46E395B80DBC3E8C6239F6AD /* AAAPJ002 Watch App.app */,
+				597503287329F5397A0B54E3 /* 即刻匣.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF17C8D0697F37D844ED85D1 /* Listening */ = {
+			isa = PBXGroup;
+			children = (
+				1706C2847F74F6D649C36CBA,
+				E446BD2F7ADE7A58BA61A1EE,
+				14D37DCEED6F25B6E5D0A102,
+				A11CAA000000000000000002,
+				C5A831BFD13FD16D7A307F82,
+				FE74F79A0FFCCC33C67CAD99,
+				DE65BBA60B4D9B72D5550398,
+				D0F37AF7FF7D2DB7EDAB30F2,
+				7B688E59233B7EF70C4F8550,
+				910FB296E0A9E41263B0EC34,
+				B731DE42AF5C7E4978A471FF,
+				27B8A22596240DEFC33A2CD5,
+			);
+			path = Listening;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272E4FF2261F67D150098B86 /* AAAPJ002 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC742DDB93696F0B9929947E /* Build configuration list for PBXNativeTarget "AAAPJ002 Watch App" */;
+			buildPhases = (
+				39DF4478C8DF429376DD7156 /* Sources */,
+				2E49CAC89760EF85631CE6A9 /* Frameworks */,
+				48F2E75E9A1B15CFA64F60BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAAPJ002 Watch App";
+			productName = "AAAPJ002 Watch App";
+			productReference = 46E395B80DBC3E8C6239F6AD /* AAAPJ002 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA257B5C1ABAB01CB998E2A /* AAAPJ002 macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F863688A6604DB75082D7A38 /* Build configuration list for PBXNativeTarget "AAAPJ002 macOS" */;
+			buildPhases = (
+				0646F944453D9EC984F79EB7 /* Sources */,
+				0CA23F61DFE38A520DE91032 /* Frameworks */,
+				6E919F3FBEBF61AA1BD5CCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAAPJ002 macOS";
+			productName = "即刻匣";
+			productReference = 597503287329F5397A0B54E3 /* 即刻匣.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A6D6B170BB6C675C2F6AC3 /* AAAPJ002 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC6853AFE3935ED988444CF /* Build configuration list for PBXNativeTarget "AAAPJ002" */;
+			buildPhases = (
+				7CFD1AA95AEE0D18A0A1276A /* Sources */,
+				C2FAAF991942D14C96A02F8D /* Frameworks */,
+				6CE5589B3376C12CA2850F4E /* Resources */,
+				5CA1F7AE45E4A661224F7DC5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07146420475A49F0CF3E498C /* PBXTargetDependency */,
+			);
+			name = AAAPJ002;
+			productName = AAAPJ002;
+			productReference = AC7869B10BFBDFC759A3C54E /* AAAPJ002.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					272E4FF2261F67D150098B86 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+					9CA257B5C1ABAB01CB998E2A = {
+						CreatedOnToolsVersion = 27.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					A6A6D6B170BB6C675C2F6AC3 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = { enabled = 1; };
+						};
+					};
+				};
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "AAAPJ002" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A6D6B170BB6C675C2F6AC3 /* AAAPJ002 */,
+				272E4FF2261F67D150098B86 /* AAAPJ002 Watch App */,
+				9CA257B5C1ABAB01CB998E2A /* AAAPJ002 macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F2E75E9A1B15CFA64F60BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A18944266DEA3BE8DAE384 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE5589B3376C12CA2850F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B8FBAA03905D68E9609C7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E919F3FBEBF61AA1BD5CCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B176560DF839C9237173E35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0646F944453D9EC984F79EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6AE9F13AF214D5B0D4CC93 /* AAAPJ002App.swift in Sources */,
+				0C97B22F6640DDF6C166F366 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DF4478C8DF429376DD7156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD665D8C5A0E13D06EAA011 /* AAAPJ002WatchApp.swift in Sources */,
+				C0CE8EB866B08724CE1012E0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFD1AA95AEE0D18A0A1276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D617CF512F10135B276B812,
+				2D6CF9F58B57D98E457ABEB4,
+				BADBE96BEC5252609E203910,
+				A11CAA000000000000000001,
+				575EB2B5F3527FF2428ECC7E,
+				BFC88E9734F0600EE41831D7,
+				3CBC63593E407360BC0C11F5,
+				C52792564BDA15D53E4F09F8,
+				8197C6039FB8A62C536D2A31,
+				9443E951FB567E5D8ADF0B41,
+				8E66FA9E60662FCADD581917,
+				BE6266C9749E7F14140EB908,
+				997EF4DF9B6E9B26A940D2C7 /* AAAPJ002App.swift in Sources */,
+				48BF602B91CE368804EA7145 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07146420475A49F0CF3E498C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272E4FF2261F67D150098B86 /* AAAPJ002 Watch App */;
+			targetProxy = 8ABFEA6B9B4BC457E17B0C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00F209874A1F7309F6DCEAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0919E0C72D988D775825B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = AAAPJ002/AAAPJ002.entitlements;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "即刻匣读取耳机声音水平与耳机通知，用于生成你的听音时长、声音趋势和听觉健康报告。数据仅在本机分析。";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "即刻匣尝试读取已连接蓝牙耳机的设备型号，用于识别耳机。信息仅在本机处理。";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46565C4A0036508D995B7257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AAAPJ002 Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		86AB8E710FE0B0C4E91919E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AAAPJ002 macOS/AAAPJ002.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app;
+				PRODUCT_MODULE_NAME = AAAPJ002;
+				PRODUCT_NAME = "即刻匣";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		92ADC03DDDCA6BA3B1D3A1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = AAAPJ002/AAAPJ002.entitlements;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "即刻匣读取耳机声音水平与耳机通知，用于生成你的听音时长、声音趋势和听觉健康报告。数据仅在本机分析。";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "即刻匣尝试读取已连接蓝牙耳机的设备型号，用于识别耳机。信息仅在本机处理。";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A189BA6745F7D96AB45BE609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AAAPJ002 Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A3ECB5C69ACFF212871786C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AAAPJ002 macOS/AAAPJ002.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWR4NJBTUK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "即刻匣";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuyuetech.jikexia.app;
+				PRODUCT_MODULE_NAME = AAAPJ002;
+				PRODUCT_NAME = "即刻匣";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		ED8772ADEC3A6C25161BC957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "AAAPJ002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8772ADEC3A6C25161BC957 /* Debug */,
+				00F209874A1F7309F6DCEAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC742DDB93696F0B9929947E /* Build configuration list for PBXNativeTarget "AAAPJ002 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46565C4A0036508D995B7257 /* Debug */,
+				A189BA6745F7D96AB45BE609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC6853AFE3935ED988444CF /* Build configuration list for PBXNativeTarget "AAAPJ002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92ADC03DDDCA6BA3B1D3A1CA /* Debug */,
+				0919E0C72D988D775825B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F863688A6604DB75082D7A38 /* Build configuration list for PBXNativeTarget "AAAPJ002 macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ECB5C69ACFF212871786C2 /* Debug */,
+				86AB8E710FE0B0C4E91919E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

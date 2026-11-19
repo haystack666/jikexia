@@ -1,0 +1,76 @@
+{
+  "canvas": 800,
+  "maxSubjectDimension": 664,
+  "sources": [
+    {
+      "asset": "AirPodsClassic",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_2gen_white__benan2ckzxyq_large_2x.png",
+      "bytes": 62405
+    },
+    {
+      "asset": "AirPods3",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_3gen_white__car4z3m37ss2_large_2x.png",
+      "bytes": 83146
+    },
+    {
+      "asset": "AirPods4",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_4gen_white__birryy2mcf6u_large_2x.png",
+      "bytes": 97370
+    },
+    {
+      "asset": "AirPods5",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_5gen_white__dn7wechaouwm_large_2x.png",
+      "bytes": 102773
+    },
+    {
+      "asset": "AirPodsPro",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_pro_white__cd2arklqu16q_large_2x.png",
+      "bytes": 69796
+    },
+    {
+      "asset": "AirPodsPro3",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_pro_3_white__doiqzzyvwxyu_large_2x.png",
+      "bytes": 109717
+    },
+    {
+      "asset": "AirPodsMax",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_max_midnight__gbjhmammlc2m_large_2x.png",
+      "bytes": 282532
+    },
+    {
+      "asset": "AirPodsMaxPurple",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_max_purple__gl9ekwlgts66_large_2x.png",
+      "bytes": 286527
+    },
+    {
+      "asset": "AirPodsMaxStarlight",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_max_starlight__eic4xluae0ya_large_2x.png",
+      "bytes": 288210
+    },
+    {
+      "asset": "AirPodsMaxBlue",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_max_blue__eg7x2inqp44m_large_2x.png",
+      "bytes": 312052
+    },
+    {
+      "asset": "AirPodsMaxOrange",
+      "url": "https://www.apple.com/v/airpods/compare/k/images/overview/airpods_max_orange__zvc24kv2e2qe_large_2x.png",
+      "bytes": 303051
+    },
+    {
+      "asset": "AirPods1",
+      "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMEF2?wid=1000&hei=1000&fmt=png-alpha&qlt=90&.v=1",
+      "bytes": 182651
+    },
+    {
+      "asset": "AirPods2",
+      "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV7N2?wid=1000&hei=1000&fmt=png-alpha&qlt=90&.v=1",
+      "bytes": 156799
+    },
+    {
+      "asset": "AirPodsPro2",
+      "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=1000&hei=1000&fmt=png-alpha&qlt=90&.v=1",
+      "bytes": 188896
+    }
+  ]
+}
